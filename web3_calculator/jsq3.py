@@ -1,4 +1,6 @@
 import tkinter as tk
+import requests
+import pandas
 
 class web3_calculator:
     root = None
