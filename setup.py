@@ -5,7 +5,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setuptools.setup(
     name="web3_calculator",
-    version="0.0.7",
+    version="0.0.9",
     py_modules=["web3_calculator"],
     author="Zcb991",
     author_email="2952964392@qq.com",
@@ -18,5 +18,8 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+    ],
+    install_requires=[
+        'requests', 'pandas'
     ],
 )
