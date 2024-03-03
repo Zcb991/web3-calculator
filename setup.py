@@ -5,7 +5,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setuptools.setup(
     name="web3_calculator",
-    version="0.0.4",
+    version="0.0.7",
     py_modules=["web3_calculator"],
     author="Zcb991",
     author_email="2952964392@qq.com",
