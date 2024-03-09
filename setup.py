@@ -5,7 +5,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setuptools.setup(
     name="web3_calculator",
-    version="0.0.9",
+    version="0.1.1",
     py_modules=["web3_calculator"],
     author="Zcb991",
     author_email="2952964392@qq.com",
@@ -22,4 +22,7 @@ setuptools.setup(
     install_requires=[
         'requests', 'pandas'
     ],
+    project_urls={
+        'Source': "https://github.com/Zcb991/web3-calculator",
+    }
 )
